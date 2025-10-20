@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEP - API</title>
+    <link rel="stylesheet" href="cep.js">
+</head>
+<body>
+    <h1>Consulta de CEP</h1>
+
+    <form method="get" action=".">
+        <label>CEP:
+            <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" onblur="pesquisacep(this.value);" />
+        </label>
+        <br>
+
+        <label>Logradouro:
+            <input name="logradouro" type="text" id="logradouro" value="" size="40" />
+        </label>
+        <br>
+
+        <label>Complemento:
+            <input name="complemento" type="text" id="complemento" value="" size="40" />
+        </label>
+        <br>
+
+        <label>Unidade:
+            <input name="unidade" type="text" id="unidade" value="" size="10" maxlength="9" />
+        </label>
+        <br>
+
+        <label>Bairro:
+            <input name="bairro" type="text" id="bairro" value="" size="30" />
+        </label>
+        <br>
+
+        <label>Localidade:
+            <input name="localidade" type="text" id="localidade" value="" size="30" />
+        </label>
+        <br>
+
+        <label>UF:
+            <input name="uf" type="text" id="uf" value="" size="2" maxlength="2" />
+        </label>
+        <br>
+
+        <label>Estado:
+            <input name="estado" type="text" id="estado" value="" size="20" />
+        </label>
+        <br>
+
+        <label>Região:
+            <input name="regiao" type="text" id="regiao" value="" size="20" />
+        </label>
+        <br>
+
+        <label>IBGE:
+            <input name="ibge" type="text" id="ibge" value="" size="10" maxlength="9" />
+        </label>
+        <br>
+
+        <label>GIA:
+            <input name="gia" type="text" id="gia" value="" size="10" maxlength="9" />
+        </label>
+        <br>
+
+        <label>DDD:
+            <input name="ddd" type="text" id="ddd" value="" size="3" maxlength="3" />
+        </label>
+        <br>
+
+        <label>SIAFI:
+            <input name="siafi" type="text" id="siafi" value="" size="10" maxlength="9" />
+        </label>
+    </form>
+
+    <script src="js/cep.js"></script>
+</body>
+</html>
