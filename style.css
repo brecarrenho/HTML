@@ -1,0 +1,81 @@
+body {
+    font-family:  Arial, sans-serif, Helvetica, sans-serif;
+    background-color: #e9ecef;
+    height: 100vh;
+    margin: 0;
+}
+
+div{
+background-color: white;
+padding: 25px 40px;
+border-radius: 10px;
+box-shadow:0px 0px 10px rgba(0,0,0,0.15);
+text-align: center;
+width: 600px;
+max-width: 90%;
+align-self: center;
+
+
+}
+header {
+background-color: rgb(188, 135, 238);
+padding: 15px;
+border-bottom: 3px solid;
+display: flex;
+
+}
+.abeca h2{
+    color: white;
+    margin-right: 10%;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+.opitions{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap:15px;
+
+}
+button:hover {
+    transform: scale(1.05);
+}
+button{
+    flex: 1;
+    padding: 15px;
+}
+
+.red {
+    background-color: #f54f49;
+
+}
+.blue {
+    background-color: #2083da;
+}
+.yellow { 
+    background-color: #e7a03d;
+}
+.green {
+    background-color: #56da56;
+}
+
+.correct {
+ box-shadow: 0 0 0 3px #4CAF50 inset;
+}
+.wrong {
+ box-shadow:0 0 0 3px #d9534f inset;
+
+}
+#feedback {
+margin-top: 20px;
+font-weight: bold;
+}
+
+.quiz{
+    position: relative;
+    left: 35%;
+    top:30%;
+}
