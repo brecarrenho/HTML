@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap&#39');
+
+body {
+    background-image: url("/Captura\ de\ tela\ 2025-11-05\ 103223.png");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Bungee';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+
+  .container {
+    text-align: center;
+  }
+}
+
+body {
+  height: 100vh;   
+  margin: 0;             
+  display: flex;             
+  justify-content: center;   
+  align-items: center;        
+  background-color: #f0f0f0;  
+}
+
+h1 {
+  font-size: 5em;             
+  color: #333;               
+}
+
+.botao {
+  background-color: #666;        
+  color: white;                 
+  border: none;           
+  padding: 12px 24px;     
+  border-radius: 8px;           
+  font-size: 16px;              
+  cursor: pointer;               
+  transition: 0.3s;           
+}
+
+.botao:hover {
+  background-color: #555;       
+  transform: scale(1.05);       
+}
+
+.botao-voltar {
+  background-color: #666;        
+  color: white;                
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.botao-voltar:hover {
+  background-color: #555;       
+  transform: scale(1.05);
+}
+
+h2 {
+  font-size: 2em;             
+  color: #333;               
+}
